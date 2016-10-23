@@ -1,0 +1,4 @@
+safe 1843545 61.37
+questionable 527453 17.56
+explicit 632829 21.07
+

@@ -1,0 +1,32 @@
+STATS
+=====
+
+
+21726.249141 seconds to download 1500000 image tag sets
+
+21726.249141/1500000 seconds / tag
+0.014484166094 seconds / tag
+69.04090946694166 tags / second
+
+1600000*0.014484166094 seconds to download the rest
+ACTUALLY TOOK 12950.460305 seconds to download the rest
+23174.6657504 seconds to download the rest
+386.24442917333334 minutes
+6.437407152888889 hours
+
+6*60*60/0.014484166094=x
+
+
+78.107031107 seconds to download 9900 image tag sets
+
+0.007889599101717172 seconds / tag
+126.74915253708518 tags / second
+
+4*60*60=x*0.007889599101717172
+1.8 million image tag sets in 4 hours
+
+3000000 tags
+3000000*0.007889599101717172 seconds to download entire gelbooru
+23668.797305151515 seconds
+394.4799550858586 minutes
+6.574665918097643 hours

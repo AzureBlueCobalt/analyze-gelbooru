@@ -1,0 +1,2 @@
+python downloader.py | tee -a image_downloading_status
+

@@ -1,0 +1,4 @@
+use
+python -u foo.py
+to print the output of foo.py in an unbuffered way
+

@@ -1,0 +1,43 @@
+use tqdm for download time estimation
+
+
+add tags file to `tags_mine` directory
+
+
+modify the downloader to download a bunch of files at the same time
+    don't wait 2 weeks to download 3 GB
+
+
+
+create downloader.py
+  add a function to download a single page
+  add a function to download each (preview) image
+  add a function to download all pages for a given query
+
+create db_manager.py
+  add a function to add an image and its tags to a db (disallow dupes)
+  add a function to load all the images from a search into the db
+  add a function to get 10 images
+  add a function to get all the images sorted by rating
+  add a function to get all the image which contain a set of tags
+
+create test_viewer.py
+  create a simple hello world webpage
+  put an image on that page
+  make the server print the name of the image when it's tapped
+  make the page display a different image after it is pressed
+
+download a sample set (maybe that 3 page one)
+load that sample set into the db
+
+create recommender.py
+  add a function that sorts them by rating
+  add a function that sorts them by distance to all of the current liked images
+  etc
+
+create viewer.py
+  copy test_viewer.py
+  create a top bar thing that with a slide-out menu
+  make a grid of images which are returned from the server
+  add all the different sorts
+
